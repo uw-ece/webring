@@ -12,9 +12,8 @@ let ece_students = [
         "image": "static/sayma.jpg"
 
     }, 
-    
-];
 
+];
 
 searchBar.addEventListener('keyup', (e) => {
     const searchString = e.target.value.toLowerCase();
