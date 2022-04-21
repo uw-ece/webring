@@ -7,11 +7,11 @@ body a {
   color: #aaaaaa;
 }
 
-body a:hover {
+body a:visited {
+  transition: 0.2s;
   color: #c8c8c8;
 }
-
-body a:visited {
+body a:hover {
   color: #1db954;
 }
 .header {
