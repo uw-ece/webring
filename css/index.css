@@ -167,13 +167,13 @@ body a:visited {
   margin: 0 20%;
 }
 
-@media (max-width: 1400px) {
+@media screen and(max-width: 1400px) { 
   .content__middle {
     width: 100%;
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .content__middle {
     width: 100%;
   }
@@ -233,7 +233,7 @@ body a:visited {
   display: block;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .navigation {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -304,7 +304,7 @@ body a:visited {
   margin-right: 15px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .playlist {
     display: none;
   }
@@ -357,7 +357,7 @@ body a:visited {
   color: #aaaaaa;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .playing {
     border-top: 1px solid #181818;
   }
@@ -570,7 +570,7 @@ body a:visited {
   display: block;
 }
 
-@media (max-width: 1400px) {
+@media screen and (max-width: 1400px) {
   .current-track__actions {
     width: 10%;
   }
@@ -582,7 +582,7 @@ body a:visited {
   }
 }
 
-@media (max-width: 980px) {
+@media screen and (max-width: 980px) {
   .current-track__actions {
     width: 10%;
   }
@@ -594,7 +594,7 @@ body a:visited {
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .current-track__actions {
     width: 25%;
   }
@@ -606,7 +606,7 @@ body a:visited {
   }
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .current-track__actions {
     width: 100%;
     -ms-flex-pack: distribute;
@@ -623,7 +623,7 @@ body a:visited {
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .current-track__action {
     padding-top: 15px;
   }
@@ -936,7 +936,7 @@ body a:visited {
   width: 30%;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .artist__content .overview__artist {
     width: 100%;
   }
@@ -946,19 +946,19 @@ body a:visited {
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .artist__content .overview__artist {
     padding-right: 0;
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .artist {
     overflow-y: auto;
   }
 }
 
-@media (max-width: 522px) {
+@media screen and (max-width: 522px) {
   .artist__header {
     height: auto;
     -webkit-box-orient: vertical;
@@ -1147,7 +1147,7 @@ body a:visited {
   color: #aaaaaa;
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .tracks__heading__title {
     width: auto;
   }
@@ -1197,7 +1197,7 @@ body a:visited {
   color: white;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .related-artists {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1210,14 +1210,14 @@ body a:visited {
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .related-artists .related-artist {
     margin: 5px;
     width: calc((100% / 2) - 10px);
   }
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .related-artists .related-artist {
     margin: 5px;
     width: 20%;
@@ -1343,7 +1343,7 @@ body a:visited {
   width: 70%;
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .album .tracks .track {
     height: auto;
     padding: 10px 0;
@@ -1449,19 +1449,19 @@ body a:visited {
   cursor: pointer;
 }
 
-@media (max-width: 1100px) {
+@media screen and (max-width: 1100px) {
   .media-cards .media-card {
     width: calc((100% / 3) - 30px);
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .media-cards .media-card {
     width: calc((100% / 2) - 30px);
   }
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .media-cards .media-card {
     margin: 15px 0;
     width: 100%;
@@ -1477,7 +1477,7 @@ body a:visited {
   background: #373737;
 }
 
-@media (max-width: 650px) {
+@media screen and (max-width: 650px) {
   .header .window__actions {
     width: 15%;
   }
