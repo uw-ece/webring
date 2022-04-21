@@ -1,11 +1,11 @@
-<img src="client/src/images/webring_header.png" alt="banner" width=fit-content/>
+<img src="./img/webring_header.png" alt="banner" width=fit-content/>
 
 ---
 ### :link: To view live site, [click here!](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 ---
 #### :globe_with_meridians: What is a webring?
 
-**A webring, or web ring, is a group of websites revolving around a central topic and connected in circular fashion by a navigation menu, typically revolving around a specific theme.**
+**A webring, or web ring, is a group of websites revolving around a central topic and connected in circular fashion by a navigation menu.**
 
 ---
 #### :mag: What is the purpose of this webring?
