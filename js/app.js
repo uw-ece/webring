@@ -70,16 +70,33 @@ let ece_students = [
   {
     name: "Sayma Khan",
     website: "https://saymaakhan.github.io/",
+    year: "2024"
   },
   {
     name: "Adshayan Balendra",
     website: "https://adshayanb.github.io/",
+    year: "2024"
+
   },
   {
     name: "Jaishree Balamurugan",
     website: "https://jaishreebala.com/",
+    year: "2024"
+
   },
 ];
+
+function compareStrings(a, b) {
+  // Assuming you want case-insensitive comparison
+  a = a.toLowerCase();
+  b = b.toLowerCase();
+
+  return (a < b) ? -1 : (a > b) ? 1 : 0;
+}
+
+ece_students.sort(function(a, b) {
+  return compareStrings(a.name, b.name);
+})
 
 searchBar.addEventListener("keyup", (e) => {
   const searchString = e.target.value.toLowerCase();
@@ -87,7 +104,8 @@ searchBar.addEventListener("keyup", (e) => {
   const filteredCharacters = ece_students.filter((students) => {
     return (
       students.name.toLowerCase().includes(searchString) ||
-      students.website.toLowerCase().includes(searchString)
+      students.website.toLowerCase().includes(searchString) ||
+      students.year.includes(searchString)
     );
   });
   displayCharacters(filteredCharacters);
@@ -103,10 +121,10 @@ const loadCharacters = async () => {
 
 const displayCharacters = (students) => {
   const htmlString = students
-    .map((students) => {
+    .map((students, index) => {
       return `
             <div class="track">
-                <div class="track__number">1</div>
+                <div class="track__number">${index+1}</div>
                 <div class="track__added">
                     <i class="ion-checkmark-round added"></i>
                 </div>
@@ -122,7 +140,7 @@ const displayCharacters = (students) => {
                     <span class="label">Explicit</span>
                 </div>
 
-                <div class="track__length">2024</div>
+                <div class="track__length">${students.year}</div>
                 <div class="track__popularity">
                     <i class="ion-arrow-graph-up-right"></i>
                 </div>
