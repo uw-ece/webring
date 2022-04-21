@@ -1,7 +1,7 @@
 <img src="./img/webring_header.png" alt="banner" width=fit-content/>
 
 ---
-### :link: To view live site, [click here!](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+### :link: To view live site, [click here!](https://uw-ece.github.io/webring/)
 ---
 #### :globe_with_meridians: What is a webring?
 
