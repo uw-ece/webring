@@ -121,10 +121,10 @@ const loadCharacters = async () => {
 
 const displayCharacters = (students) => {
   const htmlString = students
-    .map((students) => {
+    .map((students, index) => {
       return `
             <div class="track">
-                <div class="track__number">1</div>
+                <div class="track__number">${index+1}</div>
                 <div class="track__added">
                     <i class="ion-checkmark-round added"></i>
                 </div>
