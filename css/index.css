@@ -39,10 +39,6 @@ body a:hover {
   margin: 0 10px;
 }
 
-.header .page-flows .flow:hover {
-  color: white;
-}
-
 .header .page-flows .flow .disabled {
   color: #5e5e5e;
 }
@@ -79,6 +75,7 @@ body a:hover {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding-left: 100px;
 }
 
 .header .user i {
@@ -403,7 +400,7 @@ body a:hover {
 }
 
 .current-track__actions a:hover {
-  color: white;
+  color: #c8c8c8;
   cursor: pointer;
 }
 
@@ -1519,24 +1516,12 @@ body a:hover {
   color: #fc615c;
 }
 
-.red:hover {
-  color: #fb302a;
-}
-
 .yellow {
   color: #fdbe41;
 }
 
-.yellow:hover {
-  color: #fcad0f;
-}
-
 .green {
   color: #34c94a;
-}
-
-.green:hover {
-  color: #2aa03b;
 }
 
 button {
@@ -1557,10 +1542,6 @@ button:hover {
   background: #1ed760;
   color: white;
   border: 1px solid #1ed760;
-}
-
-.button-dark:hover {
-  background: #43e57d;
 }
 
 .button-light {
