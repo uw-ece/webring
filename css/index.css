@@ -9,7 +9,7 @@ body a {
 
 body a:visited {
   transition: 0.2s;
-  color: #c8c8c8;
+  color: #aaaaaa;
 }
 
 body a:hover {
