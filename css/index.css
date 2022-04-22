@@ -20,6 +20,11 @@ body a:hover {
   color: white !important;
 }
 
+.light {
+  padding-top: 3px;
+  color: #aaaaaa;
+}
+
 .header {
   background: #282828;
   padding: 10px;
@@ -1330,7 +1335,7 @@ input {
 
 .album__info__meta .album__name {
   color: white;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 700;
 }
 
