@@ -16,6 +16,10 @@ body a:hover {
   color: #1db954;
 }
 
+.white {
+  color: white !important;
+}
+
 .header {
   background: #282828;
   padding: 10px;
