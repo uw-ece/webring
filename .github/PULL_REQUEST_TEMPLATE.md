@@ -23,3 +23,4 @@ Make sure you have checked **all** steps below to ensure a timely review.
 - [ ] PR title addresses the issue accurately and concisely. Example: "add: Adshayan 2024 https://adshayanb.github.io/"
 - [ ] PR adds entry to `ece_students` object with your name, year and website
 - [ ] Request  @adshayanB or @saymaakhan to approve your PR
+- [ ] The webring site is somewhere on your website so it can redirect people back (creating the ring 🔥)
