@@ -726,8 +726,8 @@ input {
 
 .artist__header .artist__info__name {
   color: white;
-  font-size: 36px;
-  font-weight: 100;
+  font-size: 5rem;
+  font-weight: 800;
   padding: 0 0 10px 0;
 }
 
