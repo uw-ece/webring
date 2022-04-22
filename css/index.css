@@ -52,9 +52,7 @@ body a:hover {
 }
 
 .header .search input {
-  border-radius: 15px;
   border: none;
-  background: white;
   color: #000000;
   padding-left: 30px;
   outline: none;
@@ -170,7 +168,22 @@ body a:hover {
   margin: 0 20%;
 }
 
-@media screen and(max-width: 1400px) { 
+input {
+  border: none;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: inherit;
+}
+.input-st {
+  border-radius: 1rem;
+  background-color: #0d0d0e80;
+}
+.input-st .iconify {
+  margin-right: 0.75rem;
+}
+
+@media screen and(max-width: 1400px) {
   .content__middle {
     width: 100%;
   }
@@ -784,6 +797,7 @@ body a:hover {
 .artist__header .artist__navigation {
   width: 100%;
   z-index: 1;
+  padding: 0 2rem;
   background: rgba(24, 24, 24, 0.6);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -804,9 +818,9 @@ body a:hover {
   border: none;
 }
 
-.artist__header .artist__navigation ul li {
+/* .artist__header .artist__navigation ul li {
   padding: 0 15px;
-}
+} */
 
 .artist__header .artist__navigation ul li a {
   padding: 15px 0;
