@@ -58,6 +58,12 @@ let ece_students = [
     year: "2024"
 
   },
+  {
+    name: "Adshayan Balendra",
+    website: "https://adshayanb.github.io/",
+    year: "2024"
+
+  },
 ];
 
 function compareStrings(a, b) {
