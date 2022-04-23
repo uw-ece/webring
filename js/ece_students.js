@@ -23,7 +23,13 @@ var ece_students = [
       name: "Justin Mendes",
       website: "https://www.linkedin.com/in/justincmendes/",
       year: "2024"
+    },
+    {
+      name: "Varun Garg",
+      website: "https://www.linkedin.com/in/varungarg26/",
+      year: "2025"
     }
+
   ];
 
   export {ece_students}
