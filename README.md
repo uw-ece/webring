@@ -15,7 +15,7 @@
 ---
 #### :white_check_mark: How to add your site!
 **1. Fork the repository. <br>
-2. Clone the forked repository <br>
+2. Clone the forked repository. <br>
 3. Add your changes and ensure you follow the [pull-request template](https://github.com/uw-ece/webring/blob/main/.github/PULL_REQUEST_TEMPLATE.md). <br>
 4. Commit your changes. <br>
 5. Create a pull-request to push to our repository!**
