@@ -19,6 +19,11 @@ var ece_students = [
       website: "https://www.rishanratna.com/",
       year: "2024"
     },
+    {
+      name: "Justin Mendes",
+      website: "https://www.linkedin.com/in/justincmendes/",
+      year: "2024"
+    }
   ];
 
   export {ece_students}
