@@ -20,6 +20,9 @@ Attach your name, year of graduation and site so we can validate your entry 😊
 
 ### CheckList
 Make sure you have checked **all** steps below to ensure a timely review.
-- [ ] PR title addresses the issue accurately and concisely. Example: "add: Adshayan 2024 https://adshayanb.github.io/"
+- [ ] PR title addresses the issue accurately and concisely. Example: "add: Sayma Khan 2024 https://saymaakhan.github.io/"
 - [ ] PR adds entry to `ece_students` object with your name, year and website
 - [ ] Request  @adshayanB or @saymaakhan to approve your PR
+- [ ] Add the webring URL, https://uw-ece.github.io/webring/ , to your website (e.g, in the footer like the image below). 
+
+<img src="../img/footer.png" alt="banner" width=fit-content/>
