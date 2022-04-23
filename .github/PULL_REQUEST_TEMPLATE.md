@@ -25,7 +25,6 @@ Make sure you have checked **all** steps below to ensure a timely review.
 1. Full Name, 
 2. Year of Graduation 
 3. Website or LinkedIn URL
-- [ ] Request  @adshayanB or @saymaakhan to approve your PR
 - [ ] Add the webring URL, https://uw-ece.github.io/webring/ , to your website (e.g, in the footer like the image below). 
 
 <img src="../img/footer.png" alt="banner" width=fit-content/>
