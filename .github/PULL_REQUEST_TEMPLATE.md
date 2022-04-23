@@ -21,7 +21,7 @@ Attach your name, year of graduation and site so we can validate your entry 😊
 ### CheckList
 Make sure you have checked **all** steps below to ensure a timely review.
 - [ ] PR title addresses the issue accurately and concisely. Example: "add: Sayma 2024 https://saymaakhan.github.io/"
-- [ ] PR adds entry to `ece_students` object with your 
+- [ ] PR adds entry to `ece_students.js` file in the `ece_students` object with your 
 1. Full Name, 
 2. Year of Graduation 
 3. Website or LinkedIn URL
