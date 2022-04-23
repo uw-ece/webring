@@ -8,13 +8,16 @@ var ece_students = [
       name: "Jaishree Balamurugan",
       website: "https://jaishreebala.com/",
       year: "2024"
-  
     },
     {
       name: "Adshayan Balendra",
       website: "https://adshayanb.github.io/",
       year: "2024"
-  
+    },
+    {
+      name: "Rishan Ratnasivam",
+      website: "https://www.rishanratna.com/",
+      year: "2024"
     },
   ];
 
