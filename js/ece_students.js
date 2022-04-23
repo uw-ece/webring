@@ -33,6 +33,11 @@ var ece_students = [
       name: "Saqib Ali",
       website: "https://saqibali.ca/",
       year: "2024"
+    },
+    {
+      name: "Kelly Tan",
+      website: "https://www.linkedin.com/in/k35tan/",
+      year: "2024"
     }
 
 
