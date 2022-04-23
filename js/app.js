@@ -1,3 +1,4 @@
+import {ece_students} from './ece_students.js'
 // Tooltips
 $(function () {
   $('[data-toggle="tooltip"]').tooltip();
@@ -46,25 +47,7 @@ $(window).on("resize load", function () {
 const charactersList = document.getElementById("charactersList");
 const searchBar = document.getElementById("searchBar");
 const description = document.getElementById("description");
-let ece_students = [
-  {
-    name: "Sayma Khan",
-    website: "https://saymaakhan.github.io/",
-    year: "2024"
-  },
-  {
-    name: "Jaishree Balamurugan",
-    website: "https://jaishreebala.com/",
-    year: "2024"
-
-  },
-  {
-    name: "Adshayan Balendra",
-    website: "https://adshayanb.github.io/",
-    year: "2024"
-
-  },
-];
+// let ece_students = ece_students;
 
 function compareStrings(a, b) {
   // Assuming you want case-insensitive comparison
