@@ -10,14 +10,14 @@
 ---
 #### :mag: What is the purpose of this webring?
 
-**The objective of this webring is to centralize a collection of the portfolios and personal sites created by ECE students at UW. In doing this, students will more easily be able to network with one another and increase their visibility.**
+**The objective of this webring is to centralize a collection of personal sites and LinkedIns created by ECE students at UW. In doing this, students will more easily be able to network with one another and increase their visibility.**
 
 ---
 #### :white_check_mark: How to add your site!
-**1. Fork the repository.
-2. Clone the forked repository
-3. Add your changes and ensure you follow the [pull-request template](https://github.com/uw-ece/webring/blob/main/.github/PULL_REQUEST_TEMPLATE.md).
-4. Commit your changes.
+**1. Fork the repository. <br>
+2. Clone the forked repository <br>
+3. Add your changes and ensure you follow the [pull-request template](https://github.com/uw-ece/webring/blob/main/.github/PULL_REQUEST_TEMPLATE.md). <br>
+4. Commit your changes. <br>
 5. Create a pull-request to push to our repository!**
 
 ---
