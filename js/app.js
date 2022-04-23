@@ -45,6 +45,7 @@ $(window).on("resize load", function () {
 
 const charactersList = document.getElementById("charactersList");
 const searchBar = document.getElementById("searchBar");
+const description = document.getElementById("description");
 let ece_students = [
   {
     name: "Sayma Khan",
@@ -87,6 +88,7 @@ searchBar.addEventListener("keyup", (e) => {
 const loadCharacters = async () => {
   try {
     displayCharacters(ece_students);
+    getSongs(ece_students);
   } catch (err) {
     console.error(err);
   }
@@ -123,5 +125,11 @@ const displayCharacters = (students) => {
     .join("");
   charactersList.innerHTML = htmlString;
 };
-
+const getSongs = (students) => { 
+  const htmlString = `
+  <b class="white">ECE Students</b>
+  • ${students.length} songs, 4 hr, 4 min
+  `
+  description.innerHTML = htmlString;
+}
 loadCharacters();
