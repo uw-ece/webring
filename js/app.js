@@ -128,7 +128,7 @@ const displayCharacters = (students) => {
 const getSongs = (students) => { 
   const htmlString = `
   <b class="white">ECE Students</b>
-  • ${students.length} songs, 4 hr, 4 min
+  • ${students.length} songs
   `
   description.innerHTML = htmlString;
 }
