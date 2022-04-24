@@ -58,6 +58,11 @@ var ece_students = [
       name: "Simon Bell",
       website: "https://www.linkedin.com/in/simonbell613/",
       year: 2024
+    },
+    {
+      name: "Aditya Chilukuri",
+      website: "https://a-chil.github.io",
+      year: "2024"
     }
 
 
