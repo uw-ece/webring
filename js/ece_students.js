@@ -63,9 +63,17 @@ var ece_students = [
       name: "Aditya Chilukuri",
       website: "https://a-chil.github.io",
       year: "2024"
-    }
-
-
+    },
+    {
+      name: "Mathew Al-Dabbah",
+      website: "https://www.linkedin.com/in/mathew-al-dabbah-61b7521b1/",
+      year: "2024"
+    },
+    {
+      name: "Saleen Shahriar",
+      website: "https://saleen.dev/",
+      year: "2024"
+    },
   ];
 
   export {ece_students}
