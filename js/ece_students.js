@@ -70,6 +70,11 @@ var ece_students = [
       year: "2024"
     },
     {
+      name: "Timur Dauletov",
+      website: "https://www.dauletov.com/",
+      year: "2024"
+    },
+    {
       name: "Saleen Shahriar",
       website: "https://saleen.dev/",
       year: "2024"
