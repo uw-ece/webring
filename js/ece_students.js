@@ -79,6 +79,11 @@ var ece_students = [
       website: "https://saleen.dev/",
       year: "2024"
     },
+    {
+      name: "Yashashwin Karthikeyan",
+      website: "https://yashkarthik.xyz",
+year: "2028"
+    }
   ];
 
   export {ece_students}
